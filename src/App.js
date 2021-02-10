@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Header/Header";
+import MainContent from "./MainContent/MainContent";
+import "./App.css";
+import watermark from "./watermark.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      <Header />
+      <MainContent />
+      {/* <img className="watermarkImg" src={watermark}></img> */}
+    </main>
   );
 }
 
