@@ -1,6 +1,9 @@
 .header {
   background-color: #93272c;
   height: 75px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 img {

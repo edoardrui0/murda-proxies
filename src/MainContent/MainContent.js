@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./MainContent.css";
 import FeatureButtons from "../FeatureButtons/FeatureButtons";
+import WhatIsAProxy from "../WhatIsAProxy/WhatIsAProxy";
+import Features from "../Features/Features";
 
 class MainContent extends Component {
   render() {
@@ -11,6 +13,8 @@ class MainContent extends Component {
           <span>Offering fast and reliable sneaker proxies</span>
         </div>
         <FeatureButtons />
+        <WhatIsAProxy />
+        <Features />
       </div>
     );
   }
