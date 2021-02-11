@@ -3,6 +3,7 @@ import "./MainContent.css";
 import FeatureButtons from "../FeatureButtons/FeatureButtons";
 import WhatIsAProxy from "../WhatIsAProxy/WhatIsAProxy";
 import Features from "../Features/Features";
+import Purchase from "../Purchase/Purchase";
 
 class MainContent extends Component {
   render() {
@@ -15,6 +16,7 @@ class MainContent extends Component {
         <FeatureButtons />
         <WhatIsAProxy />
         <Features />
+        <Purchase />
       </div>
     );
   }

@@ -9,6 +9,7 @@ class FeatureButtons extends Component {
           <li>What is a proxy</li>
           <li>Features</li>
           <li>Purchase</li>
+          <li>Dashboard</li>
         </ul>
       </div>
     );

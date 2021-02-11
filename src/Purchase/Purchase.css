@@ -1,4 +1,8 @@
-button {
+label {
+  text-align: center;
+}
+
+.purchaseSubmit {
   margin-top: 25px;
   background-color: #93272c;
   border: none;
