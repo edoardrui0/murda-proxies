@@ -4,7 +4,7 @@ import "./WhatIsAProxy.css";
 class WhatIsAProxy extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container" id="what-is-a-proxy">
         <h3>What is a Proxy?</h3>
         <div>
           Proxies are servers that are used as an intermediate connection point

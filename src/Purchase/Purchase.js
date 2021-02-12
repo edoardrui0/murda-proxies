@@ -4,7 +4,7 @@ import "./Purchase.css";
 class Purchase extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container" id="purchase">
         <h2>Purchase</h2>
         <select>
           <option value="1gb">1GB / Price</option>

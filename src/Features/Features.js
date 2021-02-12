@@ -4,7 +4,7 @@ import "./Features.css";
 class Features extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container" id="features">
         <h2>Features</h2>
         <h3>How do resis perform compared to dcs?</h3>
         <span>
