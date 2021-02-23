@@ -10,6 +10,7 @@ import Header from "./Header/Header";
 import Home from "./Home/Home";
 import styles from "./App.module.css";
 import watermark from "./watermark.png";
+import Dashboard from "./Dashboard/Dashboard";
 
 // function App() {
 //   return (
@@ -27,10 +28,21 @@ function App() {
   return (
     <Router>
       <main className="App">
-        <Header />
-        <Home />
+        <Switch>
+          <Route exact path="/">
+            <Header />
+            <Home />
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard />
+          </Route>
+        </Switch>
       </main>
     </Router>
+
+    // <main className="App">
+    //   <Dashboard />
+    // </main>
   );
 }
 

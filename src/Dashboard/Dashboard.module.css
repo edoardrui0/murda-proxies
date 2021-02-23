@@ -1,0 +1,20 @@
+.dashboardContainer {
+  color: rgb(211, 211, 211);
+  background-color: #383838;
+  margin: 115px 25px 25px 25px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.loginImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.loginButton {
+  margin-top: 75px;
+}

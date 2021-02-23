@@ -1,5 +1,6 @@
 import React from "react";
 import "./FeatureButtons.css";
+import { BrowserRouter, Link } from "react-router-dom";
 
 function FeatureButtons() {
   function scrollToSection(id) {
@@ -19,7 +20,9 @@ function FeatureButtons() {
         </li>
         <li onClick={() => scrollToSection("features")}>Features</li>
         <li onClick={() => scrollToSection("purchase")}>Purchase</li>
-        <li>Dashboard</li>
+        <Link to="/dashboard">
+          <li>Dashboard</li>
+        </Link>
       </ul>
     </div>
   );
