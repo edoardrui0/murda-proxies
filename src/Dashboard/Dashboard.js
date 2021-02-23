@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../Header/Header";
 import styles from "./Dashboard.module.css";
 import watermark2 from "./watermark2.png";
-import { BrowserRouter, Link } from "react-router-dom";
 
 function Dashboard() {
   return (

@@ -39,10 +39,6 @@ function App() {
         </Switch>
       </main>
     </Router>
-
-    // <main className="App">
-    //   <Dashboard />
-    // </main>
   );
 }
 
